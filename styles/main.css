@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+/* font-family: 'Cinzel', serif; */
+
+:root {
+  --cl-primary: #4b9e50;
+  --cl-secondary: #4d5674;
+  --cl-white: #ffffff;
+  --cl-black: #010e38;
+  --cl-primary-border: #e9e9e9;
+  --cl-primary-background: #f4f4f4;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+}
+
+main {
+  flex: 1 1 auto;
+  padding-top: 80px;
+}
+
+.box {
+  max-width: 1232px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: 16px;
+}
+
+.logo {
+  font-family: "Great Vibes", cursive;
+  font-size: 30px;
+  line-height: 38px;
+  color: var(--cl-primary);
+}

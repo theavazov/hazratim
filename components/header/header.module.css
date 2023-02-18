@@ -1,0 +1,12 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  background-color: var(--cl-white);
+  border-bottom: 1px solid #eeee;
+}
+
+.header_inenr {
+  padding-block: 20px;
+}
