@@ -1,6 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-/* font-family: 'Cinzel', serif; */
 
 :root {
   --cl-primary: #4b9e50;
@@ -18,12 +18,13 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 120vh;
+  min-height: 101vh;
 }
 
 main {
@@ -43,4 +44,20 @@ main {
   font-size: 30px;
   line-height: 38px;
   color: var(--cl-primary);
+}
+
+.hero {
+  height: calc(100vh - (80px + 176px));
+  display: grid;
+  place-items: center;
+}
+
+.t {
+  font-family: "Cinzel", serif;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 700;
+  color: var(--cl-black);
+  max-width: 690px;
+  text-align: center;
 }
