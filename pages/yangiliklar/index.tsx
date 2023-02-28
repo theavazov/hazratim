@@ -1,4 +1,4 @@
-import { Intro } from "../../components/intro/intro";
+import { Intro } from "../../components/utils/intro/intro";
 import { CustomHead } from "../../components/utils/head";
 import { Layout } from "../../components/utils/layout";
 

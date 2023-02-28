@@ -21,10 +21,11 @@
   font-family: "Inter", sans-serif;
 }
 
+/* === UTILITIES === */
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 101vh;
+  min-height: 100vh;
 }
 
 main {
@@ -33,7 +34,7 @@ main {
 }
 
 .box {
-  max-width: 1232px;
+  max-width: calc(1200px + 32px);
   width: 100%;
   margin: 0 auto;
   padding-inline: 16px;
@@ -46,18 +47,31 @@ main {
   color: var(--cl-primary);
 }
 
-.hero {
-  height: calc(100vh - (80px + 176px));
-  display: grid;
-  place-items: center;
+/* === SECTION STYLES === */
+.section {
+  padding-top: 80px;
 }
 
-.t {
-  font-family: "Cinzel", serif;
+.main_section {
+  padding-top: 40px;
+}
+
+.section_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section_title {
   font-size: 48px;
-  line-height: 64px;
+  line-height: 58px;
   font-weight: 700;
   color: var(--cl-black);
-  max-width: 690px;
-  text-align: center;
+}
+
+/* === CONTAINERS === */
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }

@@ -1,19 +1,19 @@
-import { Intro } from "../../components/intro/intro";
 import { CustomHead } from "../../components/utils/head";
+import { Intro } from "../../components/utils/intro/intro";
 import { Layout } from "../../components/utils/layout";
 
-export default function MerosPage() {
+export default function TalimMaskanlari() {
   return (
     <>
       <CustomHead />
       <Layout>
         <Intro
-          variant={"secondary"}
+          variant="secondary"
+          location={"Ta’lim maskanlari"}
           description={
             "Nunc ornare risus ultrices velit. Ultrices sodales vel, magna id condimentum tortor, tempor, sed. Tellus turpis dui sociis massa pharetra, pharetra. Varius id commodo nulla habitant orci nisi quis. Felis iaculis."
           }
-          parent={{ title: "E’tirof", path: "/etirof" }}
-          location={"Ulamolarning fikrlari"}
+          parent={{ title: "Tarjimai holi", path: "/tarjimaihol" }}
         />
       </Layout>
     </>

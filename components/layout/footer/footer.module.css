@@ -1,5 +1,6 @@
 .footer {
   background-color: var(--cl-primary-background);
+  margin-top: 80px;
 }
 
 .footer_inner {

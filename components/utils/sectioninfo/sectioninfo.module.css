@@ -1,0 +1,37 @@
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.info_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section_desc {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: var(--cl-secondary);
+  max-width: 495px;
+}
+
+.info_link {
+  display: inline-block;
+  padding: 15px 30px;
+  border: 1px solid var(--cl-secondary);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--cl-secondary);
+  transition: 0.3s;
+}
+
+.info_link:hover {
+  background-color: var(--cl-secondary);
+  color: var(--cl-white);
+  transition: 0.3s;
+}

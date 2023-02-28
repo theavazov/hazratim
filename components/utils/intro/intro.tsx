@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import location_bg_primary from "../../public/media/location_bg_primary.png";
-import location_bg_secondary from "../../public/media/location_bg_secondary.png";
+import primary from "../../../public/media/intro-primary.png";
+import secondary from "../../../public/media/intro-secondary.png";
 import styles from "./intro.module.css";
 
 type Props = {
@@ -25,7 +25,7 @@ export function Intro({ variant, location, description, parent }: Props) {
         }`}
       >
         <div className={styles.intro_texts}>
-          <p className={styles.intro_title}>{location}</p>
+          <h2 className={styles.intro_title}>{location}</h2>
           {description ? (
             <p className={styles.intro_desc}>{description}</p>
           ) : null}
@@ -47,19 +47,9 @@ export function Intro({ variant, location, description, parent }: Props) {
         </nav>
       </div>
       {variant === "primary" ? (
-        <Image
-          src={location_bg_primary}
-          alt="background"
-          quality={100}
-          priority
-        />
+        <Image src={primary} alt="background" quality={100} priority />
       ) : (
-        <Image
-          src={location_bg_secondary}
-          alt="background"
-          quality={100}
-          priority
-        />
+        <Image src={secondary} alt="background" quality={100} priority />
       )}
     </section>
   );

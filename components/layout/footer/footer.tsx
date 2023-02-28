@@ -1,37 +1,45 @@
 import Link from "next/link";
+import {
+  facebook,
+  instagram,
+  m,
+  telegram,
+  twitter,
+  youtube,
+} from "../../../public/icons";
 import styles from "./footer.module.css";
 
 export function Footer() {
   const socialmedia = [
     {
       title: "twitter",
-      url: "",
-      icon: "",
+      url: "#",
+      icon: twitter,
     },
     {
       title: "telegram",
-      url: "",
-      icon: "",
+      url: "#",
+      icon: telegram,
     },
     {
       title: "youtube",
-      url: "",
-      icon: "",
+      url: "#",
+      icon: youtube,
     },
     {
       title: "instagram",
-      url: "",
-      icon: "",
+      url: "#",
+      icon: instagram,
     },
     {
       title: "m",
-      url: "",
-      icon: "",
+      url: "#",
+      icon: m,
     },
     {
       title: "facebook",
-      url: "",
-      icon: "",
+      url: "#",
+      icon: facebook,
     },
   ];
 

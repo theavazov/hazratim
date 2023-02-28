@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { search } from "../../public/icons";
+import { search } from "../../../public/icons";
 import styles from "./header.module.css";
 
 export function Header() {
